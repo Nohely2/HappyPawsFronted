@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background: #CFE9E3;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    max-width: 100%; 
+}
+
+body { 
+    font-family: 'Inter', sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #8aefd7;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.barreraNavegacion {
+    max-width: 1200px;
+    margin: 0 100px 0 0; /* Mueve hacia la izquierda */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #8aefd7;
+}
+
+.barreraNavegacion a {
+    text-decoration: none;
+    color: #0D442EFA;
+    font-size: 18px;
+    margin: 0 15px;
+    font-family: 'Arial', sans-serif;
+    background-color: #8aefd7;
+}
+
+.barreraNavegacion ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #8aefd7;
+}
+
+.barreraNavegacion ul li {
+    margin-right: 20px;
+    background-color: #8aefd7;
+}
+
+.barreraNavegacion ul li a:hover {
+    color: #04512E;
+}
+
+.imgLogo {
+    height: 50px;
+    width: auto;
+    background-color: #8aefd7;
+}
+
+.botonIngresar {
+    background-color: white;
+    border: 2px solid #0D442EFA;
+    color: #0D442EFA;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+   
+}
+
+.botonIngresar:hover {
+    background-color: #0D442EFA;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #8aefd7;
+}
+
+.barreraNavegacion ul,
+.botonIngresar {
+    display: flex;
+    align-items: center; 
+    
+}
+
+/*para darle color al pasar el puntero sobre el menu de opciones*/
+li a:hover{
+    background: #058545;
+    transition: 2s;
+}
+
+/* 1ra SECCION INTRODUCCION */
+
+#main-section {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start; 
+    text-align: center; 
+    margin-top: 100px;
+
+}
+
+h1 {
+    color: #058545; 
+    font-size: 36px; 
+    margin-bottom: 20px; 
+}
+
+.image-container {
+    text-align: center; 
+  
+}
+
+img {
+    width: 700px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   
+}
+
+/* 2DA SECCION CONOCE  MAS */
+
+.conocemas {
+    clear: both; 
+    padding: 20px;
+    margin-top: 50px; 
+    background-color: #0D442EFA;
+    color: white;
+    width: 100vw; 
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: white; 
+    background-color: #0D442EFA;
+}
+
+h3 {
+    font-size: 1.8em;
+    margin-top: 0; /* Ajusta este margen para alinearlo con la parte superior */
+    margin-bottom: 15px; 
+    color: white; 
+    background-color: #0D442EFA;
+}
+
+.parrafo {
+    background-color: rgba(255, 255, 255, 0.85); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    margin-bottom: 30px;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+.Misionvision {
+    display: flex; 
+    justify-content: space-between;    
+    background-color: #0D442EFA;
+}
+
+.mision, .vision {
+    flex: 1; 
+    margin: 0 10px; 
+    padding: 20px;
+    background-color: #0D442EFA;
+}
+.mision, .vision ,.parrafo{
+    color: black;
+}
