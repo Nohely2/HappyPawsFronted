@@ -1,2 +1,1 @@
-# HappyPawsFronted
-Landing Page 
+# LandingPage
